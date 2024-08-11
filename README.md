@@ -1,12 +1,12 @@
 # Random C Programs
 
-## Beginner Programs Descriptions:
+## Basic Programs Descriptions:
 
-### Found in beginner/ directory:
+### Found in basic/ directory:
 
 | Directory | Description |
 | --- | --- |
-| beginner/sampleHW/| A normie Hello World program|
+| basic/sampleHW/| A normie Hello World program|
 
 ## Intermediate Programs Descriptions:
 
@@ -18,9 +18,9 @@
 | intermediate/palindrome/| Checks for Palindrome|
 | intermediate/range/| Checks and Prints the Max, Min and Range of the Array|
 
-## Advanced Programs Descriptions:
+## Proficient Programs Descriptions:
 
-### Found in advanced/ directory:
+### Found in proficient/ directory:
 
 | Directory | Description |
 | --- | --- |
