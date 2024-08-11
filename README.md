@@ -1,14 +1,38 @@
 # Random C Programs
 
-## Program Descriptions:
+## Beginner Programs Descriptions:
+
+### Found in beginner/ directory:
 
 | Directory | Description |
 | --- | --- |
-| arrCalc/| An array calculator|
-| palindrome/| Checks for Palindrome|
-| range/| Checks and Prints the Max, Min and Range of the Array|
-| sampleHW/| A normie Hello World program|
-| test/| A test program testing pointers and addresses|
+| beginner/sampleHW/| A normie Hello World program|
+
+## Intermediate Programs Descriptions:
+
+### Found in intermediate/ directory:
+
+| Directory | Description |
+| --- | --- |
+| intermediate/arrCalc/| An array calculator|
+| intermediate/palindrome/| Checks for Palindrome|
+| intermediate/range/| Checks and Prints the Max, Min and Range of the Array|
+
+## Advanced Programs Descriptions:
+
+### Found in advanced/ directory:
+
+| Directory | Description |
+| --- | --- |
+| advanced/$NULL | -NULL- |
+
+## Random Programs Descriptions:
+
+### Found in random/ directory:
+
+| Directory | Description |
+| --- | --- |
+| random/test/| A test program testing pointers and addresses|
 
 ## Each folder ( or directory ) has some files, described below:
 
