@@ -34,7 +34,7 @@
 | --- | --- |
 | random/test/| A test program testing pointers and addresses|
 
-## Each folder ( or directory ) has some files, described below:
+## Each folder or directory ( of a program ) has some files, described below:
 
 | File Name | Description |
 | --- | --- |
