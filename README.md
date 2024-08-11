@@ -24,7 +24,7 @@
 
 | Directory | Description |
 | --- | --- |
-| advanced/$NULL | -NULL- |
+| advanced/NULL | -NULL- |
 
 ## Random Programs Descriptions:
 
