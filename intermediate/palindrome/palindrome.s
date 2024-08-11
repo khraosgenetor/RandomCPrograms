@@ -67,11 +67,9 @@ reverse_string:
 .LC0:
 	.string	"Enter the string to check if it is a palindrome (within 100 characters): "
 .LC1:
-	.string	"%s"
-.LC2:
 	.string	"The string is a palindrome."
 	.align 8
-.LC3:
+.LC2:
 	.string	"The string is not a palindrome."
 	.text
 	.globl	main
@@ -94,12 +92,11 @@ main:
 	movq	%rax, %rdi
 	movl	$0, %eax
 	call	printf@PLT
+	movq	stdin(%rip), %rdx
 	leaq	-224(%rbp), %rax
-	movq	%rax, %rsi
-	leaq	.LC1(%rip), %rax
+	movl	$100, %esi
 	movq	%rax, %rdi
-	movl	$0, %eax
-	call	__isoc99_scanf@PLT
+	call	fgets@PLT
 	leaq	-224(%rbp), %rdx
 	leaq	-112(%rbp), %rax
 	movq	%rdx, %rsi
@@ -115,12 +112,12 @@ main:
 	call	strcmp@PLT
 	testl	%eax, %eax
 	jne	.L5
-	leaq	.LC2(%rip), %rax
+	leaq	.LC1(%rip), %rax
 	movq	%rax, %rdi
 	call	puts@PLT
 	jmp	.L6
 .L5:
-	leaq	.LC3(%rip), %rax
+	leaq	.LC2(%rip), %rax
 	movq	%rax, %rdi
 	call	puts@PLT
 .L6:

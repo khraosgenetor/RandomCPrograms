@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 {
   printf("Enter the string to check if it is a palindrome (within 100 characters): ");
   char string[100], rev_string[100];
-  scanf("%s", string);
+  fgets(string, 100, stdin);
   strcpy(rev_string, string);
   reverse_string(rev_string);
   if (strcmp(string, rev_string) == 0) {
