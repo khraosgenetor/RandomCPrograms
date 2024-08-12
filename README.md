@@ -6,7 +6,7 @@
 
 | Directory | Description |
 | --- | --- |
-| basic/sampleHW/| A normie Hello World program|
+| basic/sampleHW/| A normie Hello World program |
 
 ## Intermediate Programs Descriptions:
 
@@ -14,9 +14,9 @@
 
 | Directory | Description |
 | --- | --- |
-| intermediate/arrCalc/| An array calculator|
-| intermediate/palindrome/| Checks for Palindrome|
-| intermediate/range/| Checks and Prints the Max, Min and Range of the Array|
+| intermediate/arrCalc/| An array calculator |
+| intermediate/palindrome/| Checks for Palindrome |
+| intermediate/range/| Checks and Prints the Max, Min and Range of the Array |
 
 ## Proficient Programs Descriptions:
 
@@ -24,6 +24,7 @@
 
 | Directory | Description |
 | --- | --- |
+| proficient/structs | a program to demostrate structs |
 
 ## Random Programs Descriptions:
 
@@ -31,7 +32,7 @@
 
 | Directory | Description |
 | --- | --- |
-| random/test/| A test program testing pointers and addresses|
+| random/test/| A test program testing pointers and addresses |
 
 ## Each folder or directory ( of a program ) has some files, described below:
 
