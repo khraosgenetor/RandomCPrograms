@@ -1,5 +1,7 @@
 # Random C Programs
 
+- **NOTE:** Almost all programs have READMEs describing them. If not, will work on it soon.
+
 ## Basic Programs Descriptions:
 
 ### Found in basic/ directory:
