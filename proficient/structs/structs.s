@@ -22,13 +22,13 @@
 .LC8:
 	.string	"Stats of the players: "
 .LC9:
-	.string	"Player 1 Name\tPlayer 2 Name"
+	.string	"Player 1 Name\t\tPlayer 2 Name"
 .LC10:
 	.string	"%s\t\t%s\n"
 .LC11:
-	.string	"%s's Score\t%s's Score\n"
+	.string	"%s's Score\t\t%s's Score\n"
 .LC12:
-	.string	"%d\t\t%d\n"
+	.string	"%d\t\t\t%d\n"
 	.text
 	.globl	main
 	.type	main, @function

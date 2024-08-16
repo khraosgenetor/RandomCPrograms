@@ -1160,16 +1160,14 @@ int main(int argc, char *argv[])
                                    stdin
 # 19 "structs.c"
                                         );
-
   gameName[strcspn(gameName, "\n")] = 0;
 
   printf("Enter player 1 name: ");
   fgets(playerName1, sizeof(playerName1), 
-# 24 "structs.c" 3 4
+# 23 "structs.c" 3 4
                                          stdin
-# 24 "structs.c"
+# 23 "structs.c"
                                               );
-
   playerName1[strcspn(playerName1, "\n")] = 0;
 
   printf("Enter the score of player 1 (%s): ", playerName1);
@@ -1178,11 +1176,10 @@ int main(int argc, char *argv[])
 
   printf("Enter player 2 name: ");
   fgets(playerName2, sizeof(playerName2), 
-# 33 "structs.c" 3 4
+# 31 "structs.c" 3 4
                                          stdin
-# 33 "structs.c"
+# 31 "structs.c"
                                               );
-
   playerName2[strcspn(playerName2, "\n")] = 0;
 
   printf("Enter the score of player 2 (%s): ", playerName2);
@@ -1203,10 +1200,10 @@ int main(int argc, char *argv[])
   printf("\nName of game: %s\n", name.gameName);
 
   printf("Stats of the players: \n");
-  printf("Player 1 Name\tPlayer 2 Name\n");
+  printf("Player 1 Name\t\tPlayer 2 Name\n");
   printf("%s\t\t%s\n", player1.nameOfPlayer, player2.nameOfPlayer);
-  printf("%s's Score\t%s's Score\n", player1.nameOfPlayer, player2.nameOfPlayer);
-  printf("%d\t\t%d\n", player1.score, player2.score);
+  printf("%s's Score\t\t%s's Score\n", player1.nameOfPlayer, player2.nameOfPlayer);
+  printf("%d\t\t\t%d\n", player1.score, player2.score);
 
   return 0;
 }
