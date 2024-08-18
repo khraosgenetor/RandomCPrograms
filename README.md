@@ -38,6 +38,14 @@
 | --- | --- |
 | random/test/ | A test program testing pointers and addresses |
 
+## Unsafe Programs Descriptions:
+
+### Found in unsafe/ directory:
+
+| Directory | Description |
+| --- | --- |
+| unsafe/\#1/ | This shows an unsafe program where an index '7000' is accessed from an integer array of size '10' |
+
 ## Each folder or directory ( of a program ) has some files, described below:
 
 | File Name | Description |
