@@ -1,4 +1,4 @@
-# #1_UNSAFE_PRACTICES.md
+# README.md
 ## Overview of why this code is unsafe
 
 This repository contains a simple C program that demonstrates array usage. However, the code contains a critical safety issue related to out-of-bounds array access.
